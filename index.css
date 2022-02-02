@@ -6,4 +6,5 @@
 .navbar{
     display: flex;
     width: 80%;
+    align-items: center;
 }
