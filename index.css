@@ -26,3 +26,9 @@ margin-left: 3vw;
     padding: 0.7%;
 }
 
+.navbar-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
