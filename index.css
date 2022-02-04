@@ -2,8 +2,16 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: Montserrat;
     
  
+}
+
+.page-1{
+    background-image: url("Images/Cover.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 .navbar{
     display: flex;
@@ -12,6 +20,7 @@
     justify-content: center;
     justify-content: space-evenly;
     width: 100%;
+    color: white;
 
 }
 
@@ -21,6 +30,7 @@ margin-left: 3vw;
 }
 .navbar ul li a{
     text-decoration: none;
+    color: white;
 
 }
 .button{
@@ -37,7 +47,21 @@ margin-left: 3vw;
     flex-direction: column;
     height: 65vh;
     padding: 7%;
+    color: white;
      
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+    padding: 3px;
+
 }
 
 .btns{
@@ -62,4 +86,21 @@ margin-left: 3vw;
     height: 100vh;
     width: 100vw;
 
+}
+
+.life-content{
+    padding: 10px;
+    align-items: center;
+    box-shadow: 2px 3px gray;
+    background-color: white;
+    color: black;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+.blue {
+    background-color: #23A6F0;
+}
+.life-content blue{
+    color: white;
 }
